@@ -1,10 +1,8 @@
 /**
- * @author Matteo Settembrini <m.settembrini@logispin.com>
+ * @author Matteo Settembrini
 */
 import tourDetailDesktop from '../../pages/desktop/tour_detail'
 import sideMenuDesktop from '../../pages/desktop/side_menu'
-
-// import "cypress-real-events/support";
 
 beforeEach(() => {
     /* For mobile visualization

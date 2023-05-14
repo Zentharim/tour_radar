@@ -1,9 +1,8 @@
 /**
- * @author Matteo Settembrini <m.settembrini@logispin.com>
+ * @author Matteo Settembrini
 */
 import tourCollectionDesktop from '../../pages/desktop/tour_collection'
 import tourDetailDesktop from '../../pages/desktop/tour_detail'
-// import "cypress-real-events/support";
 
 beforeEach(() => {
     cy.visit(Cypress.env('urls')['tour_collection_europe_URL'], {
